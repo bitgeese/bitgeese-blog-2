@@ -39,7 +39,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Maciej Janowski. I am a Digital Nomad working remotly on software products.',
 }
 
 export default function About() {
@@ -58,58 +58,62 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+            I’m Maciej. I live wherever I feel like being at the moment
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
-            </p>
-            <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
-            </p>
-            <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
-            </p>
-            <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
-            </p>
+          <p>
+ I've been intrigued by technology for as long as I can remember, but my
+ journey into programming took a winding path. My first attempt at coding
+ came when I was 15, but it wasn't until I was 20 that everything clicked
+ when I discovered Python and started freelancing by taking gigs online.
+</p>
+<p>
+ While coding became my passion, I've always been drawn to the great outdoors.
+ When I'm not immersed in lines of code, you might find me chasing waves
+ while surfing, exploring new hiking trails, or practicing phrases in a
+ new language. These diverse interests have shaped my approach to
+ problem-solving in unexpected ways.
+</p>
+<p>
+ My career has been a series of challenges and triumphs. From freelancing
+ on marketplaces to securing full-time contract projects, from the fast-paced
+ environment of a startup to the structured world of a larger company, and
+ then back to freelancing again. I've had my share of unfinished projects
+ and failed product launches, but each setback has only fueled my
+ determination to keep pushing forward.
+</p>
+<p>
+ Today, I'm a freelance web designer and full-stack developer, specializing
+ in bringing MVPs to life for SaaS products and crafting simple, beautiful,
+ and lightning-fast websites for businesses. But my journey doesn't stop there.
+ As an indie hacker, I'm constantly working on personal projects, driven by
+ the goal of building and nurturing multiple small, profitable products.
+ My ultimate ambition? To transition into full-time indie hacking, where I
+ can fully unleash my creativity and build solutions that make a
+ difference.
+</p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={XIcon}>
+            <SocialLink href="http://x.com/maciejjanowski" icon={XIcon}>
               Follow on X
             </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink href="http://instagram.com/deadly_goose_/" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink href="http://github.com/bitgeese" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="http://linkedin.com/in/maciej-janowski-57755a149/" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:maciekjanowski42@icloud.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              spencer@planetaria.tech
+              maciekjanowski42@icloud.com
             </SocialLink>
           </ul>
         </div>
