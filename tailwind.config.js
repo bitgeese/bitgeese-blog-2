@@ -23,6 +23,23 @@ module.exports = {
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
+    extend: {
+      colors: {
+        primary: {
+          50: "#FFF9F5",
+          100: "#FFF2EB",
+          200: "#FFE5D6",
+          300: "#FFD8C2",
+          400: "#FFCBAD",
+          500: "#FFBE98",
+          600: "#FF8B47",
+          700: "#F55A00",
+          800: "#A33C00",
+          900: "#521E00",
+          950: "#290F00"
+        },
+      }
+    },
     typography: typographyStyles,
   },
 }
