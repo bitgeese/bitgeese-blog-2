@@ -57,43 +57,43 @@ export default function About() {
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Maciej. I live wherever I feel like being at the moment
-          </h1>
-          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+          I&apos;m Maciej. I live wherever I feel like being at the moment
+        </h1>
+        <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
           <p>
- I've been intrigued by technology for as long as I can remember, but my
- journey into programming took a winding path. My first attempt at coding
- came when I was 15, but it wasn't until I was 20 that everything clicked
- when I discovered Python and started freelancing by taking gigs online.
-</p>
-<p>
- While coding became my passion, I've always been drawn to the great outdoors.
- When I'm not immersed in lines of code, you might find me chasing waves
- while surfing, exploring new hiking trails, or practicing phrases in a
- new language. These diverse interests have shaped my approach to
- problem-solving in unexpected ways.
-</p>
-<p>
- My career has been a series of challenges and triumphs. From freelancing
- on marketplaces to securing full-time contract projects, from the fast-paced
- environment of a startup to the structured world of a larger company, and
- then back to freelancing again. I've had my share of unfinished projects
- and failed product launches, but each setback has only fueled my
- determination to keep pushing forward.
-</p>
-<p>
- Today, I'm a freelance web designer and full-stack developer, specializing
- in bringing MVPs to life for SaaS products and crafting simple, beautiful,
- and lightning-fast websites for businesses. But my journey doesn't stop there.
- As an indie hacker, I'm constantly working on personal projects, driven by
- the goal of building and nurturing multiple small, profitable products.
- My ultimate ambition? To transition into full-time indie hacking, where I
- can fully unleash my creativity and build solutions that make a
- difference.
-</p>
-          </div>
+            I&apos;ve been intrigued by technology for as long as I can remember, but my
+            journey into programming took a winding path. My first attempt at coding
+            came when I was 15, but it wasn&apos;t until I was 20 that everything clicked
+            when I discovered Python and started freelancing by taking gigs online.
+          </p>
+          <p>
+            While coding became my passion, I&apos;ve always been drawn to the great outdoors.
+            When I&apos;m not immersed in lines of code, you might find me chasing waves
+            while surfing, exploring new hiking trails, or practicing phrases in a
+            new language. These diverse interests have shaped my approach to
+            problem-solving in unexpected ways.
+          </p>
+          <p>
+            My career has been a series of challenges and triumphs. From freelancing
+            on marketplaces to securing full-time contract projects, from the fast-paced
+            environment of a startup to the structured world of a larger company, and
+            then back to freelancing again. I&apos;ve had my share of unfinished projects
+            and failed product launches, but each setback has only fueled my
+            determination to keep pushing forward.
+          </p>
+          <p>
+            Today, I&apos;m a freelance web designer and full-stack developer, specializing
+            in bringing MVPs to life for SaaS products and crafting simple, beautiful,
+            and lightning-fast websites for businesses. But my journey doesn&apos;t stop there.
+            As an indie hacker, I&apos;m constantly working on personal projects, driven by
+            the goal of building and nurturing multiple small, profitable products.
+            My ultimate ambition? To transition into full-time indie hacking, where I
+            can fully unleash my creativity and build solutions that make a
+            difference.
+          </p>
         </div>
+      </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink href="http://x.com/maciejjanowski" icon={XIcon}>
