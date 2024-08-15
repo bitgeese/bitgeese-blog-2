@@ -15,11 +15,11 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/image_5.jpeg'
+import image2 from '@/images/photos/image_2.jpeg'
+import image3 from '@/images/photos/image_3.jpeg'
+import image4 from '@/images/photos/image_4.jpeg'
+import image5 from '@/images/photos/image_6.jpeg'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -260,28 +260,30 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Freelance Full-Stack Developer, Indiehacker, and Digital Nomad
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I'm Maciek, a software developer and entrepreneur currently based in <span className="underline decoration-dashed font-semibold">Warsaw, Poland</span>. 
+            I'm the founder of many small projects, I am also currently open to freelance work 
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
+            <SocialLink 
+              href="http://x.com/maciejjanowski" 
+              aria-label="Follow on X" 
+              icon={XIcon} 
+            />
             <SocialLink
-              href="#"
+              href="http://instagram.com/deadly_goose_/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              href="http://github.com/bitgeese"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="http://linkedin.com/in/maciej-janowski-57755a149/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
