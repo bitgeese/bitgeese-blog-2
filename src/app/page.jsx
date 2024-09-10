@@ -268,8 +268,7 @@ export default async function Home() {
             Freelance Full-Stack Developer, Indiehacker, and Digital Nomad
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Maciek, a software developer and entrepreneur currently based in <span className="underline decoration-dashed font-semibold">Warsaw, Poland</span>. 
-            I&apos;m the founder of many small projects, I am also currently open to freelance work 
+            I&apos;m Maciek, a freelance full-stack developer currently based in <span className="underline decoration-dashed font-semibold">Warsaw, Poland</span>. 
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink 
